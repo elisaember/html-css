@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas baixadas</title>
+</head>
+<style>
+
+    /*
+    Tipos de Format:
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded - opentype
+    - truetype-aat (Apple Advanced Typography)
+    */
+
+
+    @font-face {
+        font-family: 'Cloister';
+        src: url(font/CloisterBlack.ttf) format('truetype');
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Seagram' ;
+        src: url(Font/Seagram\ tfb.ttf) format('truetype');
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    body {
+        font-size: 16px;
+    }
+        
+
+
+    h1 {
+        font-family: Cloister;
+        font-size: 60px;
+        color: blue;
+    }
+
+    p {
+        font-family: Seagram ;
+        font-size: 1.5em;
+        color: rgb(87, 10, 10);
+    }
+
+    
+
+</style>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ipsam accusamus. Quae, id earum tenetur iure natus quibusdam reiciendis dolores labore pariatur consequuntur eos nostrum quasi ea! Aliquam, excepturi soluta.</p>
+
+    
+</body>
+</html>

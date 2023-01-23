@@ -1,0 +1,22 @@
+@charset "UTF-8"
+<style>
+Body {
+    background-color: darkseagreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: rgb(34, 156, 178);
+    background-color: rgb(226, 43, 89);
+}
+h2{
+    color: gold;
+    background-color: rgb(70, 19, 136);
+    
+}
+
+p {
+    text-align: justify;
+}
+
+    </style>

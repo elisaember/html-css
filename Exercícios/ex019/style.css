@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+      background-color: rgb(241, 241, 155);
+}
+
+h1 {
+    color: blue;
+
+}
+
+
+#principal {
+            font-weight: bold;
+            text-align: center;
+            color:red
+            
+}
+
+
+.text {
+       color: crimson;
+       font-weight: bolder;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style: italic;
+}
